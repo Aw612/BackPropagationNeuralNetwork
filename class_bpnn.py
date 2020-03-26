@@ -1,11 +1,12 @@
+#20200318python
+#20200323matrix(numpy)
+#20200325BPNN
+#20200326class
 import math
 import numpy
 import random
 class bpnn:
     'This is a class for a BPNN'
-    #nn = bpnn(3,10,4)
-    #for i in range(0,100000):    
-        #nn.run([[0.7],[0.8],[0.9]],[[0.7],[0.8],[0.9]],0.01)
     def __init__(self,n_1,n_2,n_3):
         self.n_1 = n_1
         self.n_2 = n_2
